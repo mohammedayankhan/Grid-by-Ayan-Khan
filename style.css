@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    border: border-box;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+
+}
+
+/**Grid Project**/
+body {
+    background-color: hsl(210, 46%, 95%);
+}
+
+.Grid-project {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+p{
+    font-weight: 500;
+}
+
+.profile-1, .profile-2, .profile-3 {
+    margin-top: 100px;
+}
+
+/**profile 1**/
+.profile-1 {
+    background-color: hsl(263, 55%, 52%);
+    color: white;
+    border-radius: 8px;
+    width: 600px;
+    height: 340px;
+    margin-left: 50px;
+}
+
+/**profile 1 upperarea**/
+.header-profile-1 {
+    display: flex;
+}
+
+.profile-1-logo {
+    background-image: url('images/image-daniel.jpg');
+    background-size: cover;
+    border: 2px solid #c188f7;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.profile-1-name {
+    font-size: 13px;
+}
+
+.profile-1-job {
+    font-size: 11px;
+    color: hsl(0, 0%, 81%);
+}
+
+.profile-1-heading {
+    padding-top: 5px;
+    padding-left: 22px;
+}
+
+/**profile 1 lowerarea**/
+.profile-1 p {
+    color: hsl(0, 0%, 81%);
+    font-size: 14px;
+    padding-top: 15px;
+    padding-right: 55px;   
+    line-height: 150%;
+}
+
+.profile-1-upperarea {
+    padding-top: 30px;
+    padding-left: 25px;
+}
+
+.profile-1-lowerarea {
+    padding-left: 25px;
+
+}
+
+.profile-1-lowerarea h3 {
+    padding-top: 20px;
+    padding-right: 50px;
+    line-height: 130%;
+}
+
+/**profile 2**/
+.profile-2 {
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+    width: 330px;
+    height: 340px;
+    border-radius: 8px;
+    margin-left: 30px;
+}
+
+/**profile 2 upperarea**/
+.profile-2-logo {
+    background-image: url('images/image-jonathan.jpg');
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid hsl(217, 19%, 35%);
+}
+
+.header-profile-2 {
+    display: flex;
+}
+
+.profile-2-name {
+    font-size: 13px;
+}
+
+.profile-2-job {
+    font-size: 11px;
+    color: hsl(0, 0%, 81%);
+}
+.profile-2-upperarea {
+    padding-top: 30px;
+    padding-left: 25px;
+}
+
+/**profile 2 lowerarea**/
+.profile-2-lowerarea {
+    padding-left: 25px;
+
+}
+
+.profile-2-lowerarea h3 {
+    padding-top: 20px;
+    padding-right: 50px;
+    line-height: 130%;
+}
+
+.profile-2 p {
+    color: hsl(0, 0%, 81%);
+    font-size: 14px;
+    padding-top: 15px;
+    padding-right: 55px;   
+    line-height: 150%;
+}
+
+/**profile 3**/
+.profile-3 {
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+    border-radius: 8px;
+    margin-left: 30px;
+    width: 200px;
+    height: 730px;
+}
+
+/**profile 3 upperarea**/
+.profile-3-logo {
+    background-image: url('images/image-kira.jpg');
+    background-size: cover;
+    height: 35px;
+    width: 35px;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+} 
+
+.header-profile-3 {
+    display: flex;
+    padding-top: 25px;
+
+}
+
+.profile-3-name {
+    font-size: 13px;
+}
+
+.profile-3-job {
+    font-size: 11px;
+    color: hsl(0, 0%, 81%);
+}
+
+.profile-3-upperarea {
+    padding-left: 25px;
+}
+
+/**profile 3 lowerarea*/    
+.profile-3-lowerarea {
+    padding-top: 15px;
+    padding-right: 10px; 
+    padding-left: 10px;  
+    line-height: 150%;
+}
+
+.profile-3-lowerarea h3 {
+    padding-right: 5px;
+    line-height: 130%;
+    color: hsl(217, 19%, 35%);
+}
+
+.profile-3 p {
+    color: hsl(0, 0%, 81%);
+    font-size: 14px;
+    padding-top: 15px;
+    padding-right: 5px;   
+    line-height: 150%;
+}
