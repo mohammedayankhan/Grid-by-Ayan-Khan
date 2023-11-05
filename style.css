@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    border: border-box;
+    box-sizing: border-box;
     font-family: 'Barlow Semi Condensed', sans-serif;
 
 }
@@ -51,6 +51,18 @@ p{
     border-radius: 50%;
 }
 
+.profile-1-quotes {
+    background-image: url('images/bg-pattern-quotation.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 90px;
+    position: absolute;
+    left: 450px;
+    top: 100px;
+    z-index: 1;
+}
+
 .profile-1-name {
     font-size: 13px;
 }
@@ -85,9 +97,10 @@ p{
 }
 
 .profile-1-lowerarea h3 {
-    padding-top: 20px;
+    padding-top: 30px;
     padding-right: 50px;
     line-height: 130%;
+    z-index: 0;
 }
 
 /**profile 2**/
@@ -153,8 +166,8 @@ p{
     color: black;
     border-radius: 8px;
     margin-left: 30px;
-    width: 200px;
-    height: 730px;
+    width: 220px;
+    height: 650px;
 }
 
 /**profile 3 upperarea**/
@@ -183,7 +196,7 @@ p{
 }
 
 .profile-3-upperarea {
-    padding-left: 25px;
+    padding-left: 10px;
 }
 
 /**profile 3 lowerarea*/    
@@ -205,5 +218,136 @@ p{
     font-size: 14px;
     padding-top: 15px;
     padding-right: 5px;   
+    line-height: 150%;
+}
+
+/**profile 4 */
+.profile-4 {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+    margin-left: 40px;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 465px;  
+}
+
+/** profile 4 upperarea*/
+.profile-4-logo {
+    background-image: url('images/image-jeanette.jpg');
+    background-size: cover;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 1px solid white; 
+
+}
+
+.header-profile-4 {
+    display: flex;
+    padding-top: 25px;
+
+}
+
+.profile-4-name {
+    font-size: 13px;
+
+}
+
+.profile-4-job {
+    font-size: 11px;
+    color: hsl(0, 0%, 81%);
+
+}
+
+.profile-4-upperarea {
+    padding-left: 10px;
+}
+
+/**profile 4 lowerarea*/
+.profile-4-lowerarea {
+    padding-top: 15px;
+    padding-right: 10px; 
+    padding-left: 10px;  
+    line-height: 150%;
+}
+
+.profile-4-lowerarea h3 {
+    padding-right: 5px;
+    line-height: 130%;
+    color: hsl(217, 19%, 35%);
+}
+
+.profile-4 p {
+    color: hsl(0, 0%, 81%);
+    font-size: 14px;
+    padding-top: 15px;
+    padding-right: 5px;   
+    line-height: 150%;
+}
+
+/**profile 5 **/
+.profile-5 {
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 8px;
+    margin-left: 40px;
+    width: 680px;
+    height: 250px;
+    position: absolute;
+    top: 465px;
+    left: 300px;
+    margin-left: 30px;
+}
+
+/**profile 5 upperarea**/
+.profile-5-logo {
+    background-image: url('images/image-patrick.jpg');
+    background-size: cover;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 2px solid #c188f7;
+}
+
+.header-profile-5 {
+    display: flex;
+    padding-top: 25px;
+
+}
+
+.profile-5-name {
+    font-size: 13px;
+    color: white;
+}
+
+.profile-5-job {
+    font-size: 11px;
+    color: hsl(0, 0%, 81%);
+
+}
+
+.profile-5-upperarea {
+    padding-left: 10px;
+}
+
+/**profile 5 lowerarea**/
+.profile-5-lowerarea {
+    padding-top: 15px;
+    padding-right: 10px; 
+    padding-left: 10px;  
+    line-height: 150%;
+}
+
+.profile-5-lowerarea h3 {
+    padding-right: 5px;
+    line-height: 130%;
+    color: white;
+}
+
+.profile-5 p {
+    color: hsl(0, 0%, 81%);
+    font-size: 13px;
+    padding-top: 15px;
+    padding-right: 35px; 
     line-height: 150%;
 }
